@@ -1,13 +1,21 @@
-# Ignorar apenas pastas temporárias e arquivos desnecessários
+# Ignorar pasta GTFS inteira
 gtfs_rj/
+
+# Ignorar arquivos temporários
 *.log
 *.tmp
 *.csv
 *.json
+
+# Python cache
 __pycache__/
 *.py[cod]
+
+# Ambientes virtuais
 venv/
 .env
 .venv/
+
+# IDEs
 .vscode/
 .idea/
