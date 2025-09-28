@@ -1,0 +1,9 @@
+# Ignorar tudo por padrão
+*
+
+# Liberar apenas os arquivos que queremos enviar
+!findbus.py
+!updgtfs.py
+!templates/
+!templates/**
+!.gitignore
