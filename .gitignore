@@ -1,9 +1,13 @@
-# Ignorar tudo por padrão
-*
-
-# Liberar apenas os arquivos que queremos enviar
-!findbus.py
-!updgtfs.py
-!templates/
-!templates/**
-!.gitignore
+# Ignorar apenas pastas temporárias e arquivos desnecessários
+gtfs_rj/
+*.log
+*.tmp
+*.csv
+*.json
+__pycache__/
+*.py[cod]
+venv/
+.env
+.venv/
+.vscode/
+.idea/
